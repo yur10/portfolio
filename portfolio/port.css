@@ -1,0 +1,80 @@
+body {
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-attachment: fixed;
+  margin: 10px;
+  padding:10px;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	line-break: loose;
+}
+
+h4{
+	font-family: 'Century Gothic';
+	color: #808080;
+	text-align: center;
+	border-left :solid 5px blue;
+	border-bottom: solid 1px gray;
+	padding: 10px;
+}
+
+h6{
+	margin-left: 20%;
+	font-family: 'Century Gothic';
+	color: #808080;
+}
+
+p{
+	font-size: small;
+	font-family: 'Century Gothic';
+	color: #808080;
+	margin-left: 25%;
+}
+
+.pc { 
+	display: block !important;
+  margin: auto;
+	width: 700px;
+}
+.sp { 
+	display: none !important; 
+	margin: auto;
+  width:400px;
+}
+ 
+@media only screen and (max-width: 750px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
+
+.god{
+	margin-left: 25%;
+	margin-right: 10%;
+	width: 50%;
+}
+
+.figma{
+	margin-left: 20%;
+	width: 60%;
+}
+
+a {
+	font-size: smaller;
+	margin-left: 25%;
+	margin-right: 20%;
+}
+
+a :link{
+	color: dimgray;
+}
+
+a :hover{
+	color: rgb(54, 54, 158);
+}
+
+a :visited{
+	color: navy;
+}
