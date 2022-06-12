@@ -12,11 +12,11 @@ h1{
 	line-break: loose;
 }
 
-h4{
+h5{
 	font-family: 'Century Gothic';
 	color: #808080;
-	text-align: center;
-	border-left :solid 5px blue;
+	/* text-align: center; */
+	border-left :solid 5px rgb(127, 127, 247);
 	border-bottom: solid 1px gray;
 	padding: 10px;
 }
@@ -27,6 +27,14 @@ h6{
 	color: #808080;
 }
 
+h4 {
+	text-align: center;
+	font-family: 'Century Gothic';
+  color: #364e96;
+  padding: 0.5em 0;
+  border-top: solid 3px #364e96;
+  border-bottom: solid 3px #364e96;
+}
 p{
 	font-size: small;
 	font-family: 'Century Gothic';
@@ -50,10 +58,24 @@ p{
     .sp { display: block !important; }
 }
 
-.god{
-	margin-left: 25%;
+.leaflet1{
+	width: 47%;
+}
+
+.leaflet2{
+	width: 47%;
+}
+
+.drink{
+	margin-left: 30%;
 	margin-right: 10%;
-	width: 50%;
+	width: 40%
+}
+
+.god{
+	margin-left: 30%;
+	margin-right: 10%;
+	width: 40%;
 }
 
 .figma{
@@ -77,3 +99,4 @@ a :hover{
 a :visited{
 	color: navy;
 }
+
